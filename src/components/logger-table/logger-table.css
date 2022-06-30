@@ -1,0 +1,21 @@
+.table-container{
+    min-height: 60vh;
+    height: 60vh;
+    overflow: auto;
+}
+.react-bootstrap-table {
+    height: 500px;
+    overflow-y: scroll;
+    position: relative;
+}
+
+Table thead{
+    position: sticky;
+    top: 0px;
+    margin: 0 0 0 0;
+    background: #ccc;
+}
+
+label{
+    padding: 10px 0px;
+}
